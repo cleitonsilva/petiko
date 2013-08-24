@@ -65,7 +65,7 @@ grails.project.dependency.resolution = {
         //compile ":mail:1.0"
 
         //TWITTER BOOTSTRAP
-        runtime ':twitter-bootstrap:2.3.2'
+        //runtime ':twitter-bootstrap:2.3.2'
 
         //MONGODB
         compile ":mongodb:1.3.0"
