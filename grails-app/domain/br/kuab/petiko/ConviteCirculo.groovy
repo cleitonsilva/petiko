@@ -1,12 +1,10 @@
 package br.kuab.petiko
 
-class ConviteCirculo {
+class ConviteCirculo extends Convite{
     
     //qual o circulo
     int idCirculo
-    //quem é o perfil responsavel
-    Amigo dono    
-    
+  
     static constraints = {
     }
 }

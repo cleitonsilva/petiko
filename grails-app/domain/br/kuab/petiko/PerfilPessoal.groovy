@@ -10,8 +10,10 @@ class PerfilPessoal extends Perfil {
     //lista de pets 
     List<PerfilPet> pets
     
+    List<Convite> convites
+    
     //circulos e pets contidos no documento perfil pessoal
-    static embedded = ['circulos','pets']
+    static embedded = ['circulos','pets','convites']
     
     static constraints = {
     }
